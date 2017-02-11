@@ -29,6 +29,7 @@ remote: Total 444 (delta 43), reused 430 (delta 33), pack-reused 0
 Receiving objects: 100% (444/444), 2.13 MiB | 3.93 MiB/s, done.
 Resolving deltas: 100% (43/43), done.
 From https://github.com/QuickBox/quickbox_themes
+ * [new branch]      defaulted  -> origin/defaulted
  * [new branch]      master     -> origin/master
  * [new branch]      smoked     -> origin/smoked
 ```
@@ -41,8 +42,13 @@ git fetch --all
 
 #### Finally, you can use the theme with the following
 
+**For the 'Smoked' theme**
 ```
 git reset --hard origin/smoked
+```
+**For the 'Defaulted' theme** (QuickBox default dashboard theme)
+```
+git reset --hard origin/defaulted
 ```
 
 > You may need to restart apache to see these changes go into effect immediately. You can do so with `service apache2 restart`
@@ -51,9 +57,16 @@ git reset --hard origin/smoked
 
 ### Need to update the theme?
 
+**For the 'Smoked' theme**
 ```
 cd /srv/rutorrent/home
 git pull origin smoked
+```
+
+**For the 'Defaulted' theme**
+```
+cd /srv/rutorrent/home
+git pull origin defaulted
 ```
 
 Simple as that! You will then see output such as:
