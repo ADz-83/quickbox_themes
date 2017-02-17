@@ -1,8 +1,8 @@
 [submodule "defaulted"]
 	path = defaulted
 	url = https://github.com/QuickBox/quickbox_theme_defaulted.git
-	branch = master
+	branch = development
 [submodule "smoked"]
 	path = smoked
 	url = https://github.com/QuickBox/quickbox_theme_smoked.git
-	branch = master
+	branch = development
